@@ -86,7 +86,6 @@
         app:srcCompat="@drawable/banko_logo1" />
 
 
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -208,6 +207,13 @@
                 android:textSize="16sp" />
 
             <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Domino's                                            -29.99"
+                android:textSize="16sp" />
+
+            <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -215,12 +221,6 @@
                 android:textColor="#4CAF50"
                 android:textSize="16sp" />
 
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Domino's                                            -29.99"
-                android:textSize="16sp" />
         </LinearLayout>
     </ScrollView>
 
@@ -228,16 +228,16 @@
         android:id="@+id/textView20"
         android:layout_width="189dp"
         android:layout_height="32dp"
-        android:layout_marginTop="20dp"
-        android:shadowColor="@color/navy"
+        android:layout_marginTop="24dp"
+        android:shadowColor="#F31F2959"
         android:shadowDx="1"
         android:shadowDy="1"
-        android:shadowRadius="4"
+        android:shadowRadius="3"
         android:text="Latest Activity"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -271,7 +271,7 @@
         android:layout_height="112dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/rectangle"
-        android:text="Account Summary \nNew shit"
+        android:text="Account Summary \nInformation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
