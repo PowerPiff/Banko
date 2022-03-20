@@ -11,6 +11,11 @@ import android.widget.ImageButton;
 
 public class accounts_mainpage extends AppCompatActivity {
     private ImageButton back_button;
+    //private ImageButton accounts_button;
+    //private ImageButton deposit_button;
+    //private ImageButton transfer_button;
+    //private ImageButton menu_button;
+    //private ImageButton logout_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,4 +36,14 @@ public class accounts_mainpage extends AppCompatActivity {
         Intent intent = new Intent(this, login.class);
         startActivity(intent);
     }
+
+    //public void openAccounts(){}
+
+    //public void openMenu(){}
+
+    //public void openDeposit(){}
+
+    //public void openTransfer(){}
+
+    //public void logOut(){}
 }
