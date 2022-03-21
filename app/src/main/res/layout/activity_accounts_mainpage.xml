@@ -15,10 +15,9 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
+        app:layout_constraintVertical_bias="0.139" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -73,18 +72,17 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/iconfinder_quarantine_home_covid_7847515" />
 
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="0.444"
         app:srcCompat="@drawable/banko_logo1" />
-
 
     <TextView
         android:id="@+id/textView9"
@@ -228,7 +226,7 @@
         android:id="@+id/textView20"
         android:layout_width="189dp"
         android:layout_height="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="232dp"
         android:shadowColor="#F31F2959"
         android:shadowDx="1"
         android:shadowDy="1"
@@ -237,9 +235,9 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.139"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageButton
         android:id="@+id/imageButton15"
@@ -265,16 +263,17 @@
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/imageButton15" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="347dp"
-        android:layout_height="112dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/rectangle"
-        android:text="Account Summary \nInformation"
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="362dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/cc1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
