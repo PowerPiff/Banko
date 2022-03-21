@@ -7,17 +7,22 @@
     tools:context=".accounts_mainpage">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/balanceView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome back, Kostas!"
+        android:focusable="auto"
+        android:shadowColor="#212E43"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Balance: £1572.95"
         android:textColor="@color/navy"
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -27,7 +32,7 @@
         android:contentDescription="back_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.021"
@@ -72,17 +77,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/iconfinder_quarantine_home_covid_7847515" />
 
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444"
-        app:srcCompat="@drawable/banko_logo1" />
 
     <TextView
         android:id="@+id/textView9"
@@ -227,17 +221,16 @@
         android:layout_width="189dp"
         android:layout_height="32dp"
         android:layout_marginTop="232dp"
-        android:shadowColor="#F31F2959"
+        android:shadowColor="#212E43"
         android:shadowDx="1"
         android:shadowDy="1"
         android:shadowRadius="3"
         android:text="Latest Activity"
         android:textSize="24sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/balanceView" />
 
     <ImageButton
         android:id="@+id/imageButton15"
@@ -272,8 +265,24 @@
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/balanceView"
         app:srcCompat="@drawable/cc1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#212E43"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Welcome back, Kostas!"
+        android:textColor="@color/navy"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
