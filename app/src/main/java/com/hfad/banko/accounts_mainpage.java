@@ -11,10 +11,10 @@ import android.widget.ImageButton;
 
 public class accounts_mainpage extends AppCompatActivity {
     private ImageButton back_button;
+    private ImageButton menu_button;
     //private ImageButton accounts_button;
     //private ImageButton deposit_button;
     //private ImageButton transfer_button;
-    //private ImageButton menu_button;
     //private ImageButton logout_button;
 
     @Override
@@ -23,17 +23,28 @@ public class accounts_mainpage extends AppCompatActivity {
         setContentView(R.layout.activity_accounts_mainpage);
 
         back_button = (ImageButton) findViewById(R.id.imageButton2);
+        menu_button = (ImageButton) findViewById(R.id.imageButton10);
 
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {  openLogin(); }
+            public void onClick(View view) {
+                openLogin();
+            }
+        });
 
-
+        menu_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {openSettings(); }
         });
     }
 
     public void openLogin(){
         Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
+
+    public void openSettings(){
+        Intent intent = new Intent(this, settings.class);
         startActivity(intent);
     }
 

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banko">
         <activity
+            android:name=".logout"
+            android:exported="false" />
+        <activity
+            android:name=".viewcard_pin"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
             android:name=".accounts_mainpage"
             android:exported="false" />
         <activity
