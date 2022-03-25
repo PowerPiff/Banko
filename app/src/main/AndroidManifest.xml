@@ -10,13 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banko">
         <activity
+
+            android:name=".ScanFront"
+            android:exported="false" />
+        <activity
             android:name=".logout"
             android:exported="false" />
         <activity
-            android:name=".viewcard_pin"
+            android:name=".activity_viewpin"
             android:exported="false" />
         <activity
-            android:name=".settings"
+            android:name=".activity_settings"
+            android:exported="false" />
+        <activity
+            android:name=".activity_newpayeeadded"
+            android:exported="false" />
+        <activity
+            android:name=".activity_depositcompleted"
+            android:exported="false" />
+        <activity
+            android:name=".activity_senddeposit"
+            android:exported="false" />
+        <activity
+            android:name=".activity_payeedetails"
+            android:exported="false" />
+        <activity
+            android:name=".activity_payandtransfer"
+            android:exported="false" />
+        <activity
+            android:name=".activity_addpayee"
+
             android:exported="false" />
         <activity
             android:name=".accounts_mainpage"

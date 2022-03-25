@@ -3,7 +3,6 @@ package com.hfad.banko;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
 import android.widget.ImageButton;
@@ -11,19 +10,21 @@ import android.widget.ImageButton;
 
 public class accounts_mainpage extends AppCompatActivity {
     private ImageButton back_button;
-    private ImageButton menu_button;
-    //private ImageButton accounts_button;
-    //private ImageButton deposit_button;
-    //private ImageButton transfer_button;
-    //private ImageButton logout_button;
+
+    private ImageButton depositButton;
+    private ImageButton menuButton;
+    private ImageButton transfer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accounts_mainpage);
 
-        back_button = (ImageButton) findViewById(R.id.imageButton2);
-        menu_button = (ImageButton) findViewById(R.id.imageButton10);
+        back_button = findViewById(R.id.imageButton2);
+        transfer = findViewById(R.id.imageButton15);
+        depositButton = findViewById(R.id.imageButton11);
+        menuButton = findViewById(R.id.imageButton10);
+
 
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,30 +32,56 @@ public class accounts_mainpage extends AppCompatActivity {
                 openLogin();
             }
         });
+      
 
-        menu_button.setOnClickListener(new View.OnClickListener() {
+        transfer.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {openSettings(); }
+            public void onClick(View view){
+                openTransfer();
+            }
+        });
+
+        /**depositButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                openDeposit();
+            }
+        });**/
+
+        menuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view){
+                openMenu();
+            }
+
         });
     }
 
-    public void openLogin(){
+
+
+    public void openLogin () {
         Intent intent = new Intent(this, login.class);
+        startActivity(intent);
+    }
+
+
+    public void openTransfer(){
+        Intent intent = new Intent(this, activity_payandtransfer.class);
         startActivity(intent);
     }
 
     public void openSettings(){
         Intent intent = new Intent(this, settings.class);
         startActivity(intent);
+
+
+    public void openMenu() {
+        Intent intent = new Intent(this, activity_settings.class);
+        startActivity(intent);
     }
 
-    //public void openAccounts(){}
-
-    //public void openMenu(){}
-
-    //public void openDeposit(){}
-
-    //public void openTransfer(){}
-
-    //public void logOut(){}
+    /**public void openDeposit() {
+        Intent intent = new Intent(this, ScanFront.class);
+        startActivity(intent);
+    }**/
 }
