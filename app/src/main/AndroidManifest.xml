@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banko">
         <activity
+
             android:name=".ScanFront"
             android:exported="false" />
         <activity
@@ -38,6 +39,7 @@
             android:exported="false" />
         <activity
             android:name=".activity_addpayee"
+
             android:exported="false" />
         <activity
             android:name=".accounts_mainpage"

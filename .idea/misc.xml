@@ -30,12 +30,16 @@
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/xml/activity_deposit_cheque.xml" value="0.47927927927927927" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.217" />
         <entry key="app/src/main/res/drawable/ic_email_.xml" value="0.2425" />
+        <entry key="app/src/main/res/drawable/textview_border.xml" value="0.15" />
+        <entry key="app/src/main/res/drawable/textview_border2.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_account_created.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_accounts_mainpage.xml" value="0.2898417154947917" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_create_pin.xml" value="0.21898651123046875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_logout.xml" value="0.2359375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.2359375" />
       </map>
     </option>
   </component>
