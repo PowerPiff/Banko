@@ -1,15 +1,15 @@
 package com.hfad.banko;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 public class activity_newpayeeadded extends AppCompatActivity {
 
-    TextView back, newpay;//
+    TextView back, newpay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +26,8 @@ public class activity_newpayeeadded extends AppCompatActivity {
             }
         });
 
-        // back to home screen
-        back.setOnClickListener(new View.OnClickListener() {
+
+        back.setOnClickListener(new View.OnClickListener() { //back to home screen
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(activity_newpayeeadded.this , accounts_mainpage.class);

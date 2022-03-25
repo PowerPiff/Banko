@@ -10,8 +10,8 @@ import android.widget.ImageButton;
 
 public class accounts_mainpage extends AppCompatActivity {
     private ImageButton back_button;
-    //private ImageButton depositButton;
-    //private ImageButton createButton;
+    private ImageButton depositButton;
+    private ImageButton menuButton;
     private ImageButton transfer;
 
     @Override
@@ -21,8 +21,8 @@ public class accounts_mainpage extends AppCompatActivity {
 
         back_button = findViewById(R.id.imageButton2);
         transfer = findViewById(R.id.imageButton15);
-        //depositButton = findViewById(R.id.imageButton11);
-        //menuButton = findViewById(R.id.imageButton10);
+        depositButton = findViewById(R.id.imageButton11);
+        menuButton = findViewById(R.id.imageButton10);
 
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,26 +31,26 @@ public class accounts_mainpage extends AppCompatActivity {
             }
         });
 
-        transfer.setOnClickListener(new View.OnClickListener() {
+        transfer.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(accounts_mainpage.this,activity_payandtransfer.class);
-                startActivity(intent);
+            public void onClick(View view){
+                openTransfer();
             }
         });
 
-        /**depositButton.setOnClickListener(new View.OnClickListener() {
+        depositButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view){
                 openDeposit();
             }
         });
 
-        createButton.setOnClickListener(new View.OnClickListener() {
+        menuButton.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick (View view){
-                openCreate();
+                openMenu();
             }
-        });**/
+        });
     }
 
 
@@ -60,17 +60,18 @@ public class accounts_mainpage extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /**public void openMenu() {
-        Intent intent = new Intent(this, ActivitySettings.class);
+    public void openTransfer(){
+        Intent intent = new Intent(this, activity_payandtransfer.class);
         startActivity(intent);
     }
 
-    public void openCreate(){
-        Intent intent = new Intent(this, create_account.class);
+    public void openMenu() {
+        Intent intent = new Intent(this, activity_settings.class);
         startActivity(intent);
     }
+
     public void openDeposit() {
-        Intent intent = new Intent(this, .class);
+        Intent intent = new Intent(this, ScanFront.class);
         startActivity(intent);
-    }**/
+    }
 }

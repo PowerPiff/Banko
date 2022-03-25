@@ -8,6 +8,7 @@
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/drawable/iconfinder_quarantine_home_covid_7847515.xml" value="0.3165" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/drawable/rectangle.xml" value="0.4445" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/drawable/textview_border2.xml" value="0.104" />
+        <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_account_created.xml" value="0.3698198198198198" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_accounts_mainpage.xml" value="0.15384615384615385" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_addpayee.xml" value="0.3632246376811594" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_create_account.xml" value="0.5" />
@@ -17,10 +18,14 @@
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_logout.xml" value="0.2354881266490765" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_main2.xml" value="0.23350923482849603" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_newpayeeadded.xml" value="0.37117117117117115" />
+        <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_payandtransfer.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_payeedetails.xml" value="0.36231884057971014" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_scan_back_cheque.xml" value="0.23350923482849603" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_scan_front.xml" value="0.23350923482849603" />
+        <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_senddeposit.xml" value="0.36231884057971014" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_settings.xml" value="0.3891891891891892" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_view_pin.xml" value="0.375" />
+        <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_viewpin.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/border.xml" value="0.47927927927927927" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/xml/activity_deposit_cheque.xml" value="0.47927927927927927" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.217" />
