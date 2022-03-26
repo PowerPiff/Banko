@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_depositcompleted">
+    tools:context=".activity_chequedepositcomplete">
 
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="36dp"
         android:layout_marginBottom="200dp"
         android:gravity="center_horizontal"
-        android:text="£ 354.53"
+        android:text="£ 555.53"
         android:textColor="@color/navy"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,10 +64,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.725" />
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
