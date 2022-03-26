@@ -58,7 +58,6 @@ public class accounts_mainpage extends AppCompatActivity {
     }
 
 
-
     public void openLogin () {
         Intent intent = new Intent(this, login.class);
         startActivity(intent);
@@ -69,11 +68,6 @@ public class accounts_mainpage extends AppCompatActivity {
         Intent intent = new Intent(this, activity_payandtransfer.class);
         startActivity(intent);
     }
-
-    public void openSettings(){
-        Intent intent = new Intent(this, settings.class);
-        startActivity(intent);
-
 
     public void openMenu() {
         Intent intent = new Intent(this, activity_settings.class);
