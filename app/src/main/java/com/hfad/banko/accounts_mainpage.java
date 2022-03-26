@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 
 public class accounts_mainpage extends AppCompatActivity {
     private ImageButton back_button;
+
     private ImageButton depositButton;
     private ImageButton menuButton;
     private ImageButton transfer;
@@ -24,12 +25,14 @@ public class accounts_mainpage extends AppCompatActivity {
         depositButton = findViewById(R.id.imageButton11);
         menuButton = findViewById(R.id.imageButton10);
 
+
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openLogin();
             }
         });
+      
 
         transfer.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -50,6 +53,7 @@ public class accounts_mainpage extends AppCompatActivity {
             public void onClick (View view){
                 openMenu();
             }
+
         });
     }
 
@@ -60,10 +64,16 @@ public class accounts_mainpage extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     public void openTransfer(){
         Intent intent = new Intent(this, activity_payandtransfer.class);
         startActivity(intent);
     }
+
+    public void openSettings(){
+        Intent intent = new Intent(this, settings.class);
+        startActivity(intent);
+
 
     public void openMenu() {
         Intent intent = new Intent(this, activity_settings.class);

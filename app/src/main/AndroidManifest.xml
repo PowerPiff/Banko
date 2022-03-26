@@ -41,6 +41,7 @@
             android:exported="false" />
         <activity
             android:name=".activity_addpayee"
+
             android:exported="false" />
         <activity
             android:name=".accounts_mainpage"
