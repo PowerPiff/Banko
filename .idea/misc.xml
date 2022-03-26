@@ -31,6 +31,12 @@
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/activity_viewpin.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/layout/border.xml" value="0.47927927927927927" />
         <entry key="..\:/Users/Rinse/AndroidStudioProjects/banko/banko/app/src/main/res/xml/activity_deposit_cheque.xml" value="0.47927927927927927" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_chequedepositcomplete.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_depositcompleted.xml" value="0.1" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_scandeposit.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_scanfront.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_sendchequedeposit.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/camil/AndroidStudioProjects/Banko/app/src/main/res/layout/activity_senddeposit.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/drawable/custom_input.xml" value="0.217" />
         <entry key="app/src/main/res/drawable/ic_email_.xml" value="0.2425" />
         <entry key="app/src/main/res/drawable/textview_border.xml" value="0.15" />

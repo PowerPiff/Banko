@@ -8,6 +8,8 @@
     <string name="create_account">Create account</string>
     <string name="or">OR</string>
     <string name="enter_pin">Enter PIN</string>
+    <string name="success">Success</string>
+    <string name="new_balance">New Balance</string>
 
 
 </resources>
