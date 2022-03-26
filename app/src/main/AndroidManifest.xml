@@ -10,8 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Banko">
         <activity
-
-            android:name=".ScanFront"
+            android:name=".activity_scanback"
+            android:exported="false" />
+        <activity
+            android:name=".activity_scanfront"
             android:exported="false" />
         <activity
             android:name=".logout"

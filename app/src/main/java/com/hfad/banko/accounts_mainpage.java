@@ -41,12 +41,12 @@ public class accounts_mainpage extends AppCompatActivity {
             }
         });
 
-        /**depositButton.setOnClickListener(new View.OnClickListener() {
+        depositButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view){
                 openDeposit();
             }
-        });**/
+        });
 
         menuButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,8 +80,8 @@ public class accounts_mainpage extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /**public void openDeposit() {
-        Intent intent = new Intent(this, ScanFront.class);
+    public void openDeposit() {
+        Intent intent = new Intent(this, activity_scanfront.class);
         startActivity(intent);
-    }**/
+    }
 }
