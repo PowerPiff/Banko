@@ -26,7 +26,7 @@ public class activity_sendchequedeposit extends AppCompatActivity {
                     startActivity(intent);
                 }
             });
-            deposit = findViewById(R.id.btn_add_payment);
+            deposit = findViewById(R.id.deposit_payment);
             deposit.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

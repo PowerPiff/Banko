@@ -52,7 +52,7 @@ public class activity_scanback extends AppCompatActivity {
     }
 
     public void openAmount(){
-        Intent intent = new Intent(this, activity_senddeposit.class);
+        Intent intent = new Intent(this, activity_sendchequedeposit.class);
         startActivity(intent);
     }
 
